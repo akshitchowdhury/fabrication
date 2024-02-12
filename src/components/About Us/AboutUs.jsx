@@ -2,6 +2,10 @@ import React from 'react';
 import about from '../../assets/aboutsUs.jpg'
 
 const AboutUs = () => {
+
+  
+
+
   return (
     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between px-4 py-8 md:py-16">
       <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">

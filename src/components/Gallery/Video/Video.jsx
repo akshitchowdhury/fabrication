@@ -1,0 +1,21 @@
+import React from 'react';
+import ReactPlayer from 'react-player/youtube';
+
+const Video = ({ urls }) => {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ml-3">
+      {urls.map((url, index) => (
+        <div key={index} className="m-4">
+          <ReactPlayer
+            url={url}
+            width="100%"
+            height="auto"
+            controls
+          />
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Video;

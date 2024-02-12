@@ -1,14 +1,14 @@
 .navBlock {
     width: 100%;
     height: auto; /* Adjust height to auto for responsiveness */
-    min-height: 90vh; /* Ensure minimum height of 100vh */
+    min-height: 120vh; /* Ensure minimum height of 100vh */
     display: flex;
    
     background-size: cover;
     background-position: center;
     animation: slideshow 20s infinite; /* Adjust timing and iteration as needed */
    
-    min-height: 90vh; /* Ensure minimum height of 100vh */
+    min-height: 100vh; /* Ensure minimum height of 100vh */
     display: flex;
     right: 0;
     padding: 20px; /* Add padding for spacing */

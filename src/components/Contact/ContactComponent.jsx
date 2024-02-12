@@ -2,9 +2,12 @@ import React from 'react';
 
 import 'leaflet/dist/leaflet.css';
 import MapLeaflet from './MapLeaflet';
-MapLeaflet
+import './Contact.css'
+
 const ContactComponent = () => {
   return ( <>
+  <h2 className="connect text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Connect With Us</h2>
+
     <div className="flex flex-col lg:flex-row">
     <div className="lg:w-3/4 p-4 lg:h-full rounded-lg shadow-md bg-white">
 

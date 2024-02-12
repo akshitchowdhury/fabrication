@@ -5,6 +5,8 @@ import Gallery from '../Gallery/Gallery'
 import AboutUs from '../About Us/AboutUs'
 import ContactComponent from '../Contact/ContactComponent'
 
+import Footer from '../Footer/Footer'
+
 
 
 const NavBlocks = () => {
@@ -27,6 +29,10 @@ const NavBlocks = () => {
         <ContactComponent/>
     </div>
     
+
+    <div className='footer'>
+      <Footer/>
+    </div>
 
   
     </>
