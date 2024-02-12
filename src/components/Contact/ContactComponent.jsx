@@ -6,7 +6,8 @@ MapLeaflet
 const ContactComponent = () => {
   return ( <>
     <div className="flex flex-col lg:flex-row">
-      <div className="lg:w-1/2 p-4 lg:h-full rounded-lg shadow-md bg-white">
+    <div className="lg:w-3/4 p-4 lg:h-full rounded-lg shadow-md bg-white">
+
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <form className="space-y-4">
           <div>

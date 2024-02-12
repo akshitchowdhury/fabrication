@@ -1,8 +1,9 @@
 .custom-map-container {
-    height: 80vh;
-    width: 50%;
+   
     float: right;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-right: 10%;
+    
     border-radius: 15px; /* Adjust the border-radius value for smoother edges */
     overflow: hidden; /* Hide overflow content for perfect rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
