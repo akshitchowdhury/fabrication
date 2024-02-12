@@ -1,18 +1,15 @@
-import React from 'react'
+// Navbar.js
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './BgNav.css'
 
 
-
-import bg from '../assets/fbg2.jpg'
-import { Link } from 'react-router-dom'
-const BgNav = () => {
+const Navbar = () => {
   return (
-    <div className='main-bg' >
-        {/* <img src= {bg} alt="bg" /> */}
-        <nav className="navbar" >
-      <div className="navbar-container">
+    <nav className="bg-cover">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* <Link to="/" className="navbar-logo">
-          <img src={Logo} alt="logo" style={{ maxHeight: '50px', maxWidth: '150px' }} />
+          <img src={Logo} alt="logo" className="max-h-16 max-w-full" />
         </Link> */}
         <div className="navbar-links">
           <Link to="/" className="navbar-link">Home</Link>
@@ -21,12 +18,10 @@ const BgNav = () => {
           <Link to="/services" className="navbar-link">Services</Link>
           <Link to="/contact" className="navbar-link">Contact Us</Link>
         </div>
-        <br/>
-        
       </div>
-      </nav>
-    </div>
-  )
+     
+    </nav>
+  );
 }
 
-export default BgNav
+export default Navbar;

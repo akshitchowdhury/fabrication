@@ -1,0 +1,10 @@
+.navBlock{
+
+    background-image: url('../../assets/fbg2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh; /* Set height to 100vh */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
