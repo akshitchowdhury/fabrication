@@ -10,6 +10,10 @@ const NavBlocks = () => {
         <BgNav/>
     </div>
 
+    <div className='galleria'>
+        <Gallery/>
+    </div>
+
     
   
     </>
