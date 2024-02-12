@@ -14,6 +14,7 @@ const Gallery = () => {
     
     </div>
     </div>
+    
   )
 }
 

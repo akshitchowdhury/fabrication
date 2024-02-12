@@ -3,6 +3,9 @@ import BgNav from '../BgNav'
 import './NavBlocks.css'
 import Gallery from '../Gallery/Gallery'
 import AboutUs from '../About Us/AboutUs'
+import ContactComponent from '../Contact/ContactComponent'
+
+
 
 const NavBlocks = () => {
   return (
@@ -20,9 +23,11 @@ const NavBlocks = () => {
         <Gallery/>
     </div>
 
+    <div className='contact'>
+        <ContactComponent/>
+    </div>
     
 
-    
   
     </>
   )
