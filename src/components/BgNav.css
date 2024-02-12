@@ -1,0 +1,75 @@
+
+
+#main-bg{
+    
+
+    
+    width: fit-content;
+    height: 50%;
+}
+
+/* Navbar.css */
+/* Navbar.css */
+.navbar {
+    
+    
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Add box shadow */
+    margin-bottom: 0.5%;
+    background-image: url('../assets/fbg2.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  
+  .navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+     /* Push the logo to the extreme left */
+    left: 0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: space-between; /* Center the links horizontally */
+    align-items: center; /* Align items vertically in the center */
+    width: 50%;
+  }
+  
+  .navbar-link {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.2rem; /* Increase font size */
+    margin-left: 20px; /* Increase spacing between links */
+    font-family: 'Arial', sans-serif; /* Add a stylish font style */
+  }
+  
+  
+  .navbar-link {
+    /* Your existing styles for navbar links */
+    color: black; /* Default color */
+    transition: color 0.3s, transform 0.3s; /* Transition for color and scale */
+  }
+  
+  .navbar-link:hover {
+    color: rgb(158, 156, 18); /* Color on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  
+  
+  /* Add media queries for responsiveness if needed */
+  
+  img{
+    height: 70px;
+  }
