@@ -1,8 +1,8 @@
 /* Navbar.css */
 .bg-cover {
     padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-    border: 10px solid red;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); */
+    /* border: 10px solid red; */
    
     width: 100%;
     height: 20vh; /* Change height to auto for responsiveness */

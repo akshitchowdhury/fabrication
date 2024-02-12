@@ -2,6 +2,7 @@ import React from 'react'
 import BgNav from '../BgNav'
 import './NavBlocks.css'
 import Gallery from '../Gallery/Gallery'
+import AboutUs from '../About Us/AboutUs'
 
 const NavBlocks = () => {
   return (
@@ -10,9 +11,16 @@ const NavBlocks = () => {
         <BgNav/>
     </div>
 
+    <div className='aboutUs'>
+    <AboutUs/>
+        
+    </div>
+    
     <div className='galleria'>
         <Gallery/>
     </div>
+
+    
 
     
   

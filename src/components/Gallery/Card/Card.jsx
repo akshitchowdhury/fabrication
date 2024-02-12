@@ -7,12 +7,12 @@ import f4 from '../../../assets/fbg1.avif';
 import f5 from '../../../assets/fbg2.jpg';
 import './Card.css'
 const cardsData = [
-  { image: f0, description: "Description for card 1" },
-  { image: f1, description: "Description for card 2" },
-  { image: f2, description: "Description for card 3" },
-  { image: f3, description: "Description for card 4" },
-  { image: f4, description: "Description for card 5" },
-  { image: f5, description: "Description for card 6" },
+  { image: f0, description: "Description for card 1", title: "Image1" },
+  { image: f1, description: "Description for card 2", title: "Image2" },
+  { image: f2, description: "Description for card 3", title: "Image3" },
+  { image: f3, description: "Description for card 4", title: "Image4" },
+  { image: f4, description: "Description for card 5", title: "Image5" },
+  { image: f5, description: "Description for card 6", title: "Image6" },
   // Add similar entries for f1, f2, ..., f8
 ];
 
@@ -20,10 +20,10 @@ const Card = () => {
   return (
     <div className='card-grid'>
       {cardsData.map((card, index) => (
-        <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg m-4">
+        <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg m-4 card-container">
           <img className="w-full h-64 object-cover" src={card.image} alt={`Card ${index}`} />
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Card Title</div>
+            <div className="font-bold text-xl mb-2">{card.title}</div>
             <p className="text-gray-700 text-base">{card.description}</p>
           </div>
           <div className="px-6 py-4">
