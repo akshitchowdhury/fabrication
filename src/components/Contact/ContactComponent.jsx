@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 import 'leaflet/dist/leaflet.css';
 import MapLeaflet from './MapLeaflet';
 import './Contact.css'
 
-const ContactComponent = () => {
+const ContactComponent = forwardRef((props,ref) => {
   return ( <>
+  <div ref={ref}>
   <h2 className="connect text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Connect With Us</h2>
 
     <div className="flex flex-col lg:flex-row">
@@ -35,8 +36,9 @@ const ContactComponent = () => {
 
 
     </div>
+</div>
 </>
   );
-};
+});
 
 export default ContactComponent;
