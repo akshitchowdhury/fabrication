@@ -19,19 +19,19 @@
         background-image: url('../../assets/f0.jpg');
     }
     20% {
-        background-image: url('../../assets/fbg2.jpg');
+        background-image: url('../../assets/f6.jpg');
     }
     40% {
         background-image: url('../../assets/f1.jpg');
     }
     60% {
-        background-image: url('../../assets/f3.webp');
+        background-image: url('../../assets/f7.webp');
     }
     80% {
         background-image: url('../../assets/f4.avif');
     }
     100% {
-        background-image: url('../../assets/f0.jpg') /* Loop back to the first image */
+        background-image: url('../../assets/f5.webp') /* Loop back to the first image */
     }
 }
 

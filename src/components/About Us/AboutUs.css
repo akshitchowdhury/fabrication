@@ -1,0 +1,25 @@
+/* Add vendor prefixes for browser compatibility if necessary */
+
+.relative {
+    position: relative;
+  }
+  
+  .hover-flip {
+    transform-style: preserve-3d;
+    transition: transform 2s ease;
+    transform: rotateY(180deg);
+  }
+  
+  .hover-flip:hover {
+    transform: rotateY(360deg);
+  }
+  
+  /* Hide and show images based on hover state */
+  .hidden {
+    display: none;
+  }
+  
+  .block {
+    display: block;
+  }
+  

@@ -8,6 +8,7 @@ import NavBlocks from './components/NavBlock/NavBlocks';
 import Gallery from './components/Gallery/Gallery';
 import AboutUs from './components/About Us/AboutUs';
 import Conatct from './components/Contact/ContactComponent';
+import SocialIcons from './components/social_icons/SocialIcons';
 
 
 
@@ -17,10 +18,10 @@ function App() {
   return (
     <>
     <Router>
-        
+    <SocialIcons/>  
       {/* <Navbar />
       
-      <SocialIcons/> */}
+       */}
       <Routes>
         <Route path="/" element={<NavBlocks/>} />
         <Route path="/gallery" element={<Gallery/>} />
