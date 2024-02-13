@@ -16,13 +16,13 @@
 
 @keyframes slideshow {
     0% {
-        background-image: url('../../assets/f0.jpg');
+        background-image: url('../../assets/fbg2.jpg');
     }
     20% {
         background-image: url('../../assets/f6.jpg');
     }
     40% {
-        background-image: url('../../assets/f1.jpg');
+        background-image: url('../../assets/f3.webp');
     }
     60% {
         background-image: url('../../assets/f7.webp');
