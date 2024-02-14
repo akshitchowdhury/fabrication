@@ -1,11 +1,20 @@
-import React from 'react'
-import './BgText.css'
-const BgText = () => {
-  return (
-    <div>
-        <h3>Welcome to KK Fabrication Industries</h3>
-    </div>
-  )
-}
+import React, { useEffect, useState } from 'react';
+import './BgText.css';
 
-export default BgText
+const BgText = () => {
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    setFadeIn(true);
+  }, []);
+
+  return (
+    <div className='header'>
+    <div className={`fade-in-left ${fadeIn ? 'visible' : ''}`}>
+      <h3>Welcome to KK Fabrication Industries</h3>
+    </div>
+    </div>
+  );
+};
+
+export default BgText;

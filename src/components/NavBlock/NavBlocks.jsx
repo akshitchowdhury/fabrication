@@ -5,6 +5,7 @@ import AboutUs from '../About Us/AboutUs';
 import ContactComponent from '../Contact/ContactComponent';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
+import BgText from './BgText/BgText';
 
 const NavBlocks = () => {
   // Create refs for the sections
@@ -28,6 +29,7 @@ const NavBlocks = () => {
             <Link to="/" onClick={() => handleClick(contactRef)} className="navbar-link">Contact Us</Link>
           </div>
         </div>
+        <BgText/>
       </nav>
     </div>
 
