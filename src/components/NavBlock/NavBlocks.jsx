@@ -44,12 +44,13 @@ const NavBlocks = () => {
         <AboutUs ref={aboutUsRef} />
       </div>
       
-      <div className='services'>
-        <ServicePage ref={servicesRef} />
-      </div>
 
       <div className='galleria'>
         <Gallery ref= {galleryRef} />
+      </div>
+
+      <div className='services'>
+      <ServicePage ref= {servicesRef}/>
       </div>
 
       <div className='contact'>
