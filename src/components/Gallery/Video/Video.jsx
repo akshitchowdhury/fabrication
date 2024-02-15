@@ -46,7 +46,7 @@ const Video = ({ urls }) => {
             
               url={url}
               width="50%"  // Adjusted width
-              height="500px"  // Adjusted height
+              height="300px"  // Adjusted height
               controls
               onPlay={handlePlay}
               onPause={handlePause}
