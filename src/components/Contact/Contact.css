@@ -14,3 +14,32 @@
     margin-top: -2%;
     margin-bottom: -5%;
 }
+
+.enter-name{
+    transition: transform 0.6s ease, background-color 0.9s ease; 
+}
+
+.enter-name:hover{
+    transform: scale(1.10) translateX(3rem);
+    background-color: rgb(151, 151, 241);
+}
+
+
+.enter-email{
+    transition: transform 0.6s ease, background-color 0.9s ease; 
+}
+
+.enter-email:hover{
+    transform: scale(1.10) translateX(3rem);
+    background-color: rgb(241, 177, 151);
+}
+
+
+.enter-message{
+    transition: transform 0.6s ease, background-color 0.9s ease; 
+}
+
+.enter-message:hover{
+    transform: scale(1.10) translateX(3rem);
+    background-color: rgb(117, 211, 228);
+}

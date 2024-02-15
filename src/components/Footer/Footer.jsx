@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="text-white">
             <h4 className="text-lg font-bold mb-4">About Us</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus blandit ligula.</p>
+            <p>KK Industries: Crafting communities through precision fabrication and construction solutions, shaping futures one project at a time.</p>
           </div>
 
           {/* Column 2 */}

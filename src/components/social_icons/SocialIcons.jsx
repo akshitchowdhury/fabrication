@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaInstagram, FaFacebook, FaEnvelope, FaPhone } from 'react-icons/fa';
 
+import './SocialIcons.css'
+
 const SocialIcons = () => {
   return (
-    <div style={styles.container}>
+    <div className='social-icons' style={styles.container}>
       <a href="https://www.instagram.com/" style={styles.link}><FaInstagram style={styles.icon('#405DE6', '#405DE6')} /></a>
       <a href="https://www.facebook.com/" style={styles.link}><FaFacebook style={styles.icon('#1877F2', '#1877F2')} /></a>
       <a href="mailto:example@example.com" style={styles.link}><FaEnvelope style={styles.icon('#EA4335', '#EA4335')} /></a>
