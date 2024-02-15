@@ -5,3 +5,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.form{
+    box-shadow: 3px 3px 4px 5px rgb(112, 111, 111);
+}

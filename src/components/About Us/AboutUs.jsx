@@ -1,18 +1,18 @@
-import React, { forwardRef, useState } from 'react';
+import React, { forwardRef, useState, useEffect } from 'react';
 import about from '../../assets/aboutsUs.jpg';
+import aboutAlt from '../../assets/aboutAlt.jpg'; 
+import './AboutUs.css';
 
-import aboutAlt from '../../assets/aboutAlt.jpg'; // Import the alternate image
-import './AboutUs.css'
-const AboutUs = forwardRef((props,ref) => {
-  const [isFlipped, setIsFlipped] = useState(false);
+const AboutUs = forwardRef((props, ref) => {
+  const [isFlipped, setIsFlipped] = useState(true);
 
-  const handleMouseEnter = () => {
-    setIsFlipped(true);
-  };
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIsFlipped(prevState => !prevState);
+    }, 2000); // Flip every 2 seconds
 
-  const handleMouseLeave = () => {
-    setIsFlipped(false);
-  };
+    return () => clearInterval(intervalId); // Cleanup the interval on unmount
+  }, []);
 
   return (
     <div 
@@ -29,10 +29,9 @@ const AboutUs = forwardRef((props,ref) => {
           vel purus tincidunt, nec rhoncus urna malesuada.
         </p>
       </div>
-      <div className={`md:w-1/2 relative ${isFlipped ? 'hover-flip' : ''}`} onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}>
-        <img src={about} alt="About Us" className={`w-full rounded-lg shadow-lg ${isFlipped ? 'hidden' : 'block'}`} />
-        <img src={aboutAlt} alt="About Us Alternate" className={`w-full rounded-lg shadow-lg ${isFlipped ? 'block' : 'hidden'}`} />
+      <div className={`md:w-1/2 relative ${isFlipped ? 'hover-flip' : ''}`}>
+        <img src={about} alt="About Us" className={`w-full rounded-lg shadow-lg ${isFlipped ? 'block' : 'hidden'}`} />
+        <img src={aboutAlt} alt="About Us Alternate" className={`w-full rounded-lg shadow-lg ${isFlipped ? 'hidden' : 'block'}`} />
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ const ContactComponent = forwardRef((props,ref) => {
     <div className="lg:w-3/4 p-4 lg:h-full rounded-lg shadow-md bg-white">
 
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-        <form className="space-y-4">
+        <form className="form space-y-4">
           <div>
             <label htmlFor="name" className="block font-semibold mb-1">Name</label>
             <input type="text" id="name" name="name" className="w-full px-4 py-2 border rounded-md" placeholder="Enter your name" />
