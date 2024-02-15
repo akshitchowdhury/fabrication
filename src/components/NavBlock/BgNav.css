@@ -39,12 +39,18 @@
 .navbar-link {
     color: white;
     text-decoration: none;
-    transition: color 0.3s ease;
+    /* transition: color 0.3s ease; */
     font-size: 1.2rem;
     margin-left: 20px;
     font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease;
 }
 
 .navbar-link:hover {
-    color: rgb(158, 156, 18);
+    transform: scale(1.55);
+    color: rgb(46, 197, 177);
 }
+
+
+  
+ 

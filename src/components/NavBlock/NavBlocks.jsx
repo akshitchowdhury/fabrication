@@ -6,7 +6,7 @@ import ContactComponent from '../Contact/ContactComponent';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
 import BgText from './BgText/BgText';
-
+import './BgNav.css'
 const NavBlocks = () => {
   // Create refs for the sections
   const aboutUsRef = useRef(null);
@@ -22,11 +22,12 @@ const NavBlocks = () => {
      <div className='navBlock'>
       <nav className="bg-cover">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto">
-            <Link to="/" className="navbar-link">Home</Link>
+          <div className="navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto ">
+            <Link to="/" className="navbar-link ">Home</Link>
             <Link to="/" onClick={() => handleClick(aboutUsRef)} className="navbar-link">About Us</Link>
             <Link to="/" onClick={() => handleClick(galleryRef)} className="navbar-link">Gallery</Link>
             <Link to="/" onClick={() => handleClick(contactRef)} className="navbar-link">Contact Us</Link>
+            
           </div>
         </div>
         <BgText/>

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import BgNav from './components/BgNav';
+// import BgNav from './components/BgNav';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBlocks from './components/NavBlock/NavBlocks';
