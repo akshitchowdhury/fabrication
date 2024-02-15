@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Transition } from '@headlessui/react';
 
 const texts = [
-  { id: 1, text: 'Text 1', animation: 'fade' },
+  { id: 1, text: 'hello John', animation: 'slide-top' },
   { id: 2, text: 'Text 2', animation: 'slide-right' },
-  { id: 3, text: 'Text 3', animation: 'slide-left' },
-  { id: 4, text: 'Text 4', animation: 'scale-in' },
-  { id: 5, text: 'Text 5', animation: 'bounce' },
+  { id: 3, text: 'Word 3', animation: 'slide-left' },
+  { id: 4, text: 'Line 4', animation: 'slide-bottom' },
+  { id: 5, text: 'Final 5', animation: 'bounce' },
 ];
 
 const BgText = () => {
