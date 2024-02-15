@@ -50,7 +50,7 @@
   .about-content p:hover {
     transform: scale(1.10) translateX(5rem) translateY(-1rem);
     z-index: 2;
-    color: gold;
+    color: rgb(149, 149, 223);
   }
   
 

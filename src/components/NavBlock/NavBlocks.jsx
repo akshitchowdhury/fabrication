@@ -8,11 +8,14 @@ import { Link } from 'react-router-dom';
 import BgText from './BgText/BgText';
 import './BgNav.css'
 import SocialIcons from '../social_icons/SocialIcons';
+import ServicePage from '../Services/ServicePage';
+
 const NavBlocks = () => {
   // Create refs for the sections
   const aboutUsRef = useRef(null);
   const galleryRef = useRef(null);
   const contactRef = useRef(null);
+  const servicesRef = useRef(null);
 
   // Function to scroll smoothly to a specific section 
   const handleClick = (ref) => {
@@ -27,6 +30,7 @@ const NavBlocks = () => {
           <div className="link-tab navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto ">
             <Link to="/" className="navbar-link ">Home</Link>
             <Link to="/" onClick={() => handleClick(aboutUsRef)} className="navbar-link">About Us</Link>
+            <Link to="/" onClick={() => handleClick(servicesRef)} className="navbar-link">Services</Link>
             <Link to="/" onClick={() => handleClick(galleryRef)} className="navbar-link">Gallery</Link>
             <Link to="/" onClick={() => handleClick(contactRef)} className="navbar-link">Contact Us</Link>
             
@@ -40,6 +44,9 @@ const NavBlocks = () => {
         <AboutUs ref={aboutUsRef} />
       </div>
       
+      <div className='services'>
+        <ServicePage ref={servicesRef} />
+      </div>
 
       <div className='galleria'>
         <Gallery ref= {galleryRef} />
