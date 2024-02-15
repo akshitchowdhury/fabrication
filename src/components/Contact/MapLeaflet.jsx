@@ -33,8 +33,8 @@ const MapLeaflet = () => {
   }, []);
 
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <div className="w-full md:w-4/5 lg:w-3/4 xl:w-1/2 h-96">
+    <div className="main-box w-full h-screen flex justify-center items-center">
+      <div className="map-box w-full md:w-4/5 lg:w-3/4 xl:w-1/2 h-96">
         <MapContainer center={position} zoom={13} className="w-full h-full">
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

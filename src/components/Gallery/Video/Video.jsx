@@ -13,7 +13,7 @@ const Video = ({ urls }) => {
       if (!isVideoPlaying) {
         sliderRef.current.slickNext();
       }
-    }, 2000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [isVideoPlaying]);

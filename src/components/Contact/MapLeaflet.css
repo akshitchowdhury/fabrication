@@ -9,3 +9,13 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
   }
   
+  .map-box{
+    /* border: 3pt solid red; */
+    margin-top: -25%;
+    width: 30%;
+  }
+/* 
+  .main-box{
+    border: 3pt solid black;
+    
+  } */
