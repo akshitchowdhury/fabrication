@@ -23,3 +23,19 @@
     display: block;
   }
   
+
+  .about-block{
+    border: 3pt solid red;
+    height : 50rem;
+  }
+
+  .about-content{
+    border: 3pt solid black;
+    margin-top: -30%;
+  }
+
+  .about-image{
+    border: 3pt solid blue;
+    
+    height: 40rem;
+  }

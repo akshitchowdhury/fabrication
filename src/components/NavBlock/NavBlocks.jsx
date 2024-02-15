@@ -24,7 +24,7 @@ const NavBlocks = () => {
       <nav className="bg-cover">
       <SocialIcons/>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto ">
+          <div className="link-tab navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto ">
             <Link to="/" className="navbar-link ">Home</Link>
             <Link to="/" onClick={() => handleClick(aboutUsRef)} className="navbar-link">About Us</Link>
             <Link to="/" onClick={() => handleClick(galleryRef)} className="navbar-link">Gallery</Link>
