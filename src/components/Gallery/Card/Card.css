@@ -9,6 +9,7 @@
   
   .card-container:hover {
     transform: scale(1.05);
+    box-shadow: 3px 3px 4px 4px rgb(117, 117, 185);
   }
 
   

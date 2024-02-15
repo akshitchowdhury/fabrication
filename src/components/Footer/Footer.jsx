@@ -3,12 +3,12 @@ import React from 'react';
 import './Footer.css'
 const Footer = () => {
   return (
-    <footer className="foot relative bg-gray-800 py-12" >
+    <footer className="foot relative bg-gray-800 py-28" >
       {/* Background image */}
       <div className="absolute inset-0 bg-cover bg-center z-0" style={{backgroundImage: "url('../../assets/f3.webp')"}}></div>
 
       {/* Content */}
-      <div className="container mx-auto relative z-10">
+      <div className="container mx-auto relative z-10"style={{ marginTop: "-55px" }}>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Column 1 */}
           <div className="text-white">
