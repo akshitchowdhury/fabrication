@@ -1,5 +1,6 @@
 import React, { forwardRef, useState, useEffect } from 'react';
 import about from '../../assets/aboutsUs.jpg';
+import about2 from '../../assets/f8.webp';
 import aboutAlt from '../../assets/aboutAlt.jpg'; 
 import './AboutUs.css';
 
@@ -24,6 +25,7 @@ const AboutUs = forwardRef((props, ref) => {
         <p className="text-lg text-gray-700 leading-relaxed">
         Welcome to KK Industries, where precision meets purpose in fabrication and construction solutions. With expertise honed over many years, we're not just building structures; we're crafting communities. From intricate fabrication projects to the construction of essential labor camps, we're committed to excellence at every turn. Trust us to bring your vision to life with quality, efficiency, and a dedication to making a lasting impact. At KK Industries, we're not just building; we're shaping futures. Join us in building a better tomorrow, one project at a time.
         </p>
+        <img className='about2' src={about2}  />
       </div>
       <div className={`about-image md:w-1/2 relative ${isFlipped ? 'hover-flip' : ''}`}>
         <img src={about} alt="About Us" className={`w-full rounded-lg shadow-lg ${isFlipped ? 'block' : 'hidden'}`} />
