@@ -4,16 +4,14 @@
     grid-gap: 20px;
   }
   .card-container {
-    transition: transform 0.6s ease;
-  }
-  
-  .card-container:hover {
-    transform: scale(1.27);
-    
-    /* box-shadow: 3px 3px 4px 4px rgb(117, 117, 185); */
+  transition: transform 0.6s ease, background-color 0.9s ease; /* Added ease for background-color */
+}
+
+.card-container:hover {
+  transform: scale(1.27);
   background-color: rgb(207, 30, 30);
-  
-  }
+}
+
 
   
   .card-grid {
