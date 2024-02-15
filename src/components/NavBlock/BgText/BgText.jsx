@@ -1,18 +1,41 @@
-import React, { useEffect, useState } from 'react';
-import './BgText.css';
+import React, { useState, useEffect } from 'react';
+import { Transition } from '@headlessui/react';
+
+const texts = [
+  { id: 1, text: 'Text 1', animation: 'fade' },
+  { id: 2, text: 'Text 2', animation: 'slide-right' },
+  { id: 3, text: 'Text 3', animation: 'slide-left' },
+  { id: 4, text: 'Text 4', animation: 'scale-in' },
+  { id: 5, text: 'Text 5', animation: 'bounce' },
+];
 
 const BgText = () => {
-  const [fadeIn, setFadeIn] = useState(false);
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    setFadeIn(true);
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex === texts.length - 1 ? 0 : prevIndex + 1));
+    }, 3000);
+    return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className='header'>
-    <div className={`fade-in-left ${fadeIn ? 'visible' : ''}`}>
-      <h3>Welcome to KK Fabrication Industries</h3>
-    </div>
+    <div className="relative w-full h-full flex justify-center items-center">
+      {texts.map((item, idx) => (
+        <Transition
+          as="div"
+          key={item.id}
+          show={idx === index}
+          enter={`transition-${item.animation} ease-out duration-1000`}
+          enterFrom="opacity-0 transform scale-90"
+          enterTo="opacity-100 transform scale-100"
+          leave={`transition-${item.animation} ease-in duration-1000`}
+          leaveFrom="opacity-100 transform scale-100"
+          leaveTo="opacity-0 transform scale-90"
+        >
+          <div className="absolute text-3xl font-bold text-center">{item.text}</div>
+        </Transition>
+      ))}
     </div>
   );
 };
