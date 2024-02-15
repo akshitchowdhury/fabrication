@@ -4,3 +4,12 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 18px;
 }
+
+.player-container{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  border: 3px solid red;
+}

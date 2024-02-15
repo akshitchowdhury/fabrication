@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player/youtube';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import './Video.css'
 const Video = ({ urls }) => {
   const sliderRef = useRef(null);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -43,6 +43,7 @@ const Video = ({ urls }) => {
         {urls.map((url, index) => (
           <div key={index} className="player-container">
             <ReactPlayer
+            
               url={url}
               width="50%"  // Adjusted width
               height="500px"  // Adjusted height
@@ -50,6 +51,8 @@ const Video = ({ urls }) => {
               onPlay={handlePlay}
               onPause={handlePause}
               onEnded={handlePause}
+              style={{ marginLeft: '30%', boxShadow: '3px 3px 4px 4px rgb(117, 117, 185)' }}
+
             />
           </div>
         ))}
