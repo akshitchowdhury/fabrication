@@ -8,9 +8,10 @@
   }
   
   .card-container:hover {
-    transform: scale(1.05);
+    transform: scale(1.45);
+    
     /* box-shadow: 3px 3px 4px 4px rgb(117, 117, 185); */
-  background-color: rgb(204, 207, 30);
+  background-color: rgb(207, 30, 30);
   
   }
 

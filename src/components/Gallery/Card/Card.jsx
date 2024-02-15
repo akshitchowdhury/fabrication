@@ -20,7 +20,7 @@ const Card = () => {
   return (
     <div className='card-grid'>
       {cardsData.map((card, index) => (
-        <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg m-4 card-container" >
+        <div key={index} className="max-w-sm rounded overflow-hidden shadow-2xl m-4 card-container" >
           <img className="w-full h-64 object-cover" src={card.image} alt={`Card ${index}`} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{card.title}</div>

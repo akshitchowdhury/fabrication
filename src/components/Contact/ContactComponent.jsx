@@ -10,10 +10,10 @@ const ContactComponent = forwardRef((props,ref) => {
   <h2 className="connect text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Connect With Us</h2>
 
     <div className="flex flex-col lg:flex-row">
-    <div className="lg:w-3/4 p-4 lg:h-full rounded-lg shadow-md bg-white">
+    <div className=" lg:w-3/4 p-4 lg:h-full rounded-lg shadow-2xl bg-white">
 
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-        <form className="form space-y-4">
+        <form className=" space-y-4">
           <div>
             <label htmlFor="name" className="block font-semibold mb-1">Name</label>
             <input type="text" id="name" name="name" className="w-full px-4 py-2 border rounded-md" placeholder="Enter your name" />
