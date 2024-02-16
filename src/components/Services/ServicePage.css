@@ -1,0 +1,46 @@
+.mains-service{
+    border: 3pt solid red;
+}
+
+.I1{
+    height: 36rem;
+}
+
+.C1{
+    border: 3pt solid rebeccapurple;
+
+    
+}
+
+.C2{
+    border: 3pt solid rgb(245, 245, 16);
+    background-image: url('../../assets/serviceLogo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.c1{
+    border: 3pt solid blue;
+}
+.c2{
+    border: 3pt solid violet;
+}
+.c3{
+    border: 3pt solid gold;
+}
+.c4{
+    border: 3pt solid green;
+}
+
+.serviceLogo{
+    /* border: 3pt solid goldenrod;; */
+    height: 200px;
+    margin-left: 35%;
+    
+}
+.serviceLogo img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

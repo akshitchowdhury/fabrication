@@ -45,7 +45,7 @@
     font-family: 'Arial', sans-serif;
     cursor: pointer;
     transition: transform 0.6s ease;
-    border: 3pt solid red;
+    /* border: 3pt solid red; */
 }
 
 .navbar-link:hover {
