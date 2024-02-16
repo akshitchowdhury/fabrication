@@ -12,7 +12,11 @@
     display: flex;
     right: 0;
     padding: 20px; /* Add padding for spacing */
+   
+
+
 }
+
 
 @keyframes slideshow {
     0% {
@@ -46,3 +50,4 @@
 .contact{
     margin-top: 10%;
 }
+

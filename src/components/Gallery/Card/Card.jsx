@@ -1,10 +1,10 @@
 import React from 'react';
-import f0 from '../../../assets/f0.jpg';
-import f1 from '../../../assets/f1.jpg';
-import f2 from '../../../assets/f3.webp';
-import f3 from '../../../assets/f4.avif';
-import f4 from '../../../assets/fbg1.avif';
-import f5 from '../../../assets/fbg2.jpg';
+import f0 from '../../../assets/gallery/kk7.jpg';
+import f1 from '../../../assets/gallery/kk4.jpg';
+import f2 from '../../../assets/gallery/kk6.jpg';
+import f3 from '../../../assets/gallery/kk5.jpg';
+import f4 from '../../../assets/gallery/kk12.jpg';
+import f5 from '../../../assets/gallery/kk16.jpg';
 import './Card.css'
 const cardsData = [
   { image: f0, description: "Description for card 1", title: "Image1" },
