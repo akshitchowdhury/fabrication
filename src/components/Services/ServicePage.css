@@ -1,63 +1,88 @@
-.mains-service{
-    border: 3pt solid red;
+.mains-service {
+    /* border: 3pt solid red; */
     animation: fadeInAnimation ease 3s;
-animation-iteration-count: 1;
-animation-fill-mode: forwards;
-
-/* opacity: 0;
-transition: opacity 0.5s ease; */
-
-}
-
-@keyframes fadeInAnimation {
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
+      opacity: 1;
     }
-}
-
-
-.I1{
+  }
+  
+  .I1 {
     height: 36rem;
-}
-
-.C1{
+  }
+  
+  .C1 {
     border: 3pt solid rebeccapurple;
-
-    
-}
-
-.C2{
+  }
+  
+  .C2 {
     border: 3pt solid rgb(245, 245, 16);
     background-image: url('../../assets/serviceLogo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}
+    height: 47rem;
+    
+  }
+  
+  .c1,
+  .c2,
+  .c3,
+  .c4 {
+    display: none;
+  }
 
-
-.c1{
-    border: 3pt solid blue;
-}
-.c2{
-    border: 3pt solid violet;
-}
-.c3{
-    border: 3pt solid gold;
-}
-.c4{
-    border: 3pt solid green;
-}
-
-.serviceLogo{
-    /* border: 3pt solid goldenrod;; */
+  .c3{
+    margin-top: -20%;
+  }
+  
+  .c4{
+    margin-top: -20%;
+  }
+  
+  .visible {
+    display: block;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .serviceLogo {
     height: 200px;
     margin-left: 35%;
+    /* border: 3pt solid firebrick; */
     
 }
-.serviceLogo img{
+  
+  .serviceLogo img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+  }
+  
+  .logoButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    
 }
+  
+  .logoButton:hover {
+    transform: rotate(360deg);
+  }
+  

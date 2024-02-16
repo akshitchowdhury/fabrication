@@ -5,10 +5,11 @@ import AboutUs from '../About Us/AboutUs';
 import ContactComponent from '../Contact/ContactComponent';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
-import BgText from './BgText/BgText';
+
 import './BgNav.css'
-import SocialIcons from '../social_icons/SocialIcons';
+
 import ServicePage from '../Services/ServicePage';
+import Text from './Text_Slide/Text';
 
 const NavBlocks = () => {
   // Create refs for the sections
@@ -25,7 +26,7 @@ const NavBlocks = () => {
     <>
      <div className='navBlock'>
       <nav className="bg-cover">
-      <SocialIcons/>
+      
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="link-tab navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto ">
             <Link to="/" className="navbar-link ">Home</Link>
@@ -36,7 +37,7 @@ const NavBlocks = () => {
             
           </div>
         </div>
-        <BgText/>
+        <Text/>
       </nav>
     </div>
 
