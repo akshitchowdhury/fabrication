@@ -18,11 +18,12 @@ const Slideshow = ({ texts, styles, fontStyles }) => {
   }, [texts.length]);
 
   return (
-    <div className="slideshow-container">
-      <h2 className={`fade-in-from-left ${showNext ? 'fade-out' : ''}`} style={{ color: styles[currentTextIndex], fontStyle: fontStyles[currentTextIndex] }}>
-        {texts[currentTextIndex]}
-      </h2>
-    </div>
+    <div className="slideshow-container w-full flex justify-center items-center">
+  <h2 className={`fade-in-from-left ${showNext ? 'fade-out' : ''}`} style={{ color: styles[currentTextIndex], fontStyle: fontStyles[currentTextIndex] }}>
+    {texts[currentTextIndex]}
+  </h2>
+</div>
+
   );
 };
 

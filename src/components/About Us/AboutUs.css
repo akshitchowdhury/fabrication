@@ -27,6 +27,8 @@
   .about-block{
     /* border: 3pt solid red; */
     height : 50rem;
+
+    margin-top: 5%;
   }
 
   .about-content{

@@ -1,7 +1,12 @@
 .heading{
-    margin-top: 3%;
+    margin-top: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.main-gallery{
+    /* border: 3pt solid blue; */
+    margin-top: -30%;
 }

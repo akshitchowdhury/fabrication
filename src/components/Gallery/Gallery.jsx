@@ -13,18 +13,19 @@ const urls = [
 
 const Gallery = forwardRef((props,ref) => {
   return (
-    <div className='main-gallery' ref={ref}>
- <h2 className="heading text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Our Gallery</h2>
-   <br />
-    <div className= 'flex flex-wrap justify-center'>
+    <div className='main-gallery container mx-auto' ref={ref}>
+  <h2 className="heading text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Our Gallery</h2>
+
+  <br />
+  <div className='flex flex-wrap justify-center'>
     <Card/>
-    
-    
-    </div>
-    <div className='video'>
+  </div>
+
+  <div className='video'>
     <Video urls={urls} />
-    </div>
-    </div>
+  </div>
+</div>
+
     
   )
 })
