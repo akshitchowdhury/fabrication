@@ -46,10 +46,7 @@ const Text = () => {
   ];
 
 
-  //"#ECBD1C", // green
-  "#9BBB18", // magenta
-    "#FFFF33", // yellow
-    "#A36BCC"  // cyan//
+ 
 
 
   const fontStyles = [
