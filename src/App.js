@@ -10,7 +10,7 @@ import AboutUs from './components/About Us/AboutUs';
 import Conatct from './components/Contact/ContactComponent';
 import SocialIcons from './components/social_icons/SocialIcons';
 
-
+import mainLogo from './assets/logo 1.png'
 
 
 
@@ -19,6 +19,8 @@ function App() {
     <>
     <Router>
     <SocialIcons/>  
+    
+
       {/* <Navbar />
       
        */}

@@ -1,3 +1,20 @@
 .foot{
-    background-image: url('../../assets/fbg2.jpg');
+    /* background-image: url('../../assets/logo\ 8.png');
+        background-size: cover; */
+
+
+
+}
+
+.footerLogo{
+    height: 100px;
+    width: 200px;
+}
+
+p{
+    font-size: large;
+}
+
+.follow{
+    margin-left: 17%;
 }

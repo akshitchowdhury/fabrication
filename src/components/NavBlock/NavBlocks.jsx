@@ -10,7 +10,7 @@ import './BgNav.css'
 
 import ServicePage from '../Services/ServicePage';
 import Text from './Text_Slide/Text';
-
+import mainLogo from '../../assets/logo 1.png'
 const NavBlocks = () => {
   // Create refs for the sections
   const aboutUsRef = useRef(null);
@@ -26,8 +26,13 @@ const NavBlocks = () => {
     <>
      <div className='navBlock'>
       <nav className="bg-cover">
-      
+
+      <div class="logo flex items-start justify-start px-3 py-2 mx-auto max-w-screen-xl">
+    <img src={mainLogo} alt="logo" />
+    </div>
+  
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        {/*  */}
           <div className="link-tab navbar-links flex flex-col md:flex-row md:items-center md:justify-between w-full md:w-auto ">
             <Link to="/" className="navbar-link ">Home</Link>
             <Link to="/" onClick={() => handleClick(aboutUsRef)} className="navbar-link">About Us</Link>

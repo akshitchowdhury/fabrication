@@ -22,9 +22,7 @@ const ServicePage = forwardRef((props, ref) => {
               <img src={service_image} alt="Service Image" className="I1 rounded-md shadow-md" />
             </div>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra quam vel quam
-              commodo, in vestibulum nunc fermentum. Proin sit amet nunc efficitur, ullamcorper
-              nunc nec, ullamcorper elit. Aenean vel est ac ante varius malesuada.
+            KK Industries, a trusted name in labor camp construction, brings years of expertise to every project. With a proven track record of delivering high-quality accommodation solutions, we prioritize safety, efficiency, and client satisfaction. Count on us to build robust living spaces that nurture productivity and well-being for your workforce
             </p>
           </div>
           <div className="w-full md:w-1/2">
@@ -34,7 +32,7 @@ const ServicePage = forwardRef((props, ref) => {
                   <img src={service_image3} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Service Title 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Tailored camps for diverse workforce needs.</p>
                   </div>
                 </div>
               </div>
@@ -43,7 +41,7 @@ const ServicePage = forwardRef((props, ref) => {
                   <img src={service_image1} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Service Title 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Efficient infrastructure solutions for labor accommodation.</p>
                   </div>
                 </div>
               </div>
@@ -57,7 +55,7 @@ const ServicePage = forwardRef((props, ref) => {
                   <img src={service_image2} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Service Title 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Comprehensive camp construction catering to worker welfare.</p>
                   </div>
                 </div>
               </div>
@@ -66,7 +64,7 @@ const ServicePage = forwardRef((props, ref) => {
                   <img src={service_image} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Service Title 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Customized living spaces fostering productivity and comfort.</p>
                   </div>
                 </div>
               </div>

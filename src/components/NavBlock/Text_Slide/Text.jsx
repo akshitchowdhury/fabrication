@@ -36,13 +36,22 @@ const Text = () => {
     "Stitching together hope, one project at a time."
   ];
   const styles = [
-    "#F45330", // orange
-    "#F48630", // blue
-    "#ECBD1C", // green
-    "#9BBB18", // magenta
-    "#FFFF33", // yellow
-    "#A36BCC"  // cyan
+    "white", // orange
+    "gold", // blue
+    "white", // blue
+    "gold", // blue
+    "white", // blue
+    "#F74007", // blue
+    
   ];
+
+
+  //"#ECBD1C", // green
+  "#9BBB18", // magenta
+    "#FFFF33", // yellow
+    "#A36BCC"  // cyan//
+
+
   const fontStyles = [
   "'URW Chancery L', cursive",
   "'Montserrat', sans-serif",

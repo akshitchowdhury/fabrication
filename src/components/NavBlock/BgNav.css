@@ -19,7 +19,7 @@
 
 .container{
     /* border: 3pt solid red; */
-    margin-top: -2%;
+    margin-top: -7%;
 }
 
 .navbar-links {
@@ -50,5 +50,9 @@
     color: rgb(48, 104, 187);
 } */
 
-
+.logo img{
+    width: 10%;
+    height: 10%;
+    margin-left: -5%;
+}
   

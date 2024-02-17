@@ -7,17 +7,17 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const MapLeaflet = () => {
-  const [position, setPosition] = useState([12.8985, 77.6058]); // Default position
-  const [userLocation, setUserLocation] = useState(null);
+const [position, setPosition] = useState([12.8899901, 77.5597094]); // Default position
+const [userLocation, setUserLocation] = useState(null);
 
-  const latitude = 12 + (53 / 60) + (24.3 / 3600);
-  const longitude = 77 + (33 / 60) + (42.8 / 3600);
+const latitude = 12 + (53 / 60) + (24.3 / 3600); // Corrected latitude calculation
+const longitude = 77 + (33 / 60) + (42.8 / 3600);
+const redIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+});
 
-  const redIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-  });
 
   useEffect(() => {
     // Get user's geolocation
@@ -42,7 +42,7 @@ const MapLeaflet = () => {
           />
           {userLocation && (
             <Marker position={userLocation} icon={redIcon}>
-              <Popup>Your Location</Popup>
+              <Popup>KK. Industries</Popup>
             </Marker>
           )}
         </MapContainer>

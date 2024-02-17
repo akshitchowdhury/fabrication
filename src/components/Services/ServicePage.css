@@ -19,11 +19,11 @@
   }
   
   .C1 {
-    border: 3pt solid rebeccapurple;
+    /* border: 3pt solid rebeccapurple; */
   }
   
   .C2 {
-    border: 3pt solid rgb(245, 245, 16);
+    /* border: 3pt solid rgb(245, 245, 16); */
     background-image: url('../../assets/serviceLogo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,6 +49,7 @@
   .visible {
     display: block;
     animation: fadeIn 1s ease-in;
+    
   }
   
   @keyframes fadeIn {
