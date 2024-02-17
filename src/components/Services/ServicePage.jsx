@@ -14,7 +14,12 @@ const ServicePage = forwardRef((props, ref) => {
   };
 
   return (
+    <>
+    <br/>
+    <br/>
+    <h1 className="Servie_heading heading text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Our Services</h1>
     <div className='mains-service' ref={ref}>
+      
       <div className="container mx-auto py-8">
         <div className="flex flex-wrap">
           <div className="C1 w-full md:w-1/2">
@@ -73,6 +78,7 @@ const ServicePage = forwardRef((props, ref) => {
         </div>
       </div>
     </div>
+</>
   );
 })
 

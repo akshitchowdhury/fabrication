@@ -18,9 +18,10 @@
     height: 36rem;
   }
   
-  /* .C1 {
-    border: 3pt solid rebeccapurple;
-  } */
+  .C1 {
+    /* border: 3pt solid rebeccapurple; */
+    margin-top: 7%;
+  }
   
   .C2 {
     /* border: 3pt solid rgb(245, 245, 16); */
@@ -28,7 +29,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 47rem;
-    
+    margin-top: 14%;
   }
   
   .c1,
@@ -87,3 +88,12 @@
     transform: rotate(360deg);
   }
   
+
+  .Servie_heading{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+
+  }
