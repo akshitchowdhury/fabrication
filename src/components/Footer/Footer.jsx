@@ -30,7 +30,7 @@ const Footer = () => {
       flexDirection: 'row',
       gap: '10px',
       zIndex: '9999',
-
+      
     },
     icon: (color, hoverColor) => ({
       fontSize: '25px',
@@ -122,7 +122,10 @@ const Footer = () => {
 
         {/* Powered by Innomatrics Technologies */}
         <br/>
-        <h3 className="text-center text-white text-xl mt-8">Powered by Innomatrics Technologies</h3>
+        <br/>
+        <br/>
+        <h3 className="text-center text-white text-xl mb-6">Powered by Innomatrics Technologies</h3>
+        
       </div>
     </footer>
   );
