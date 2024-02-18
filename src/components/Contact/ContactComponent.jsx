@@ -7,10 +7,10 @@ import './Contact.css'
 const ContactComponent = forwardRef((props,ref) => {
   return ( <>
   <div ref={ref} className='connect-container'>
-  <h2 className="connect text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Connect With Us</h2>
+  <h2 className="connect w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg  text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Connect With Us</h2>
 
     <div className="flex flex-col lg:flex-row">
-    <div className=" lg:w-3/4 p-4 lg:h-full rounded-lg shadow-2xl bg-white">
+    <div className=" w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg shadow-2xl bg-white rounded-lg shadow-2xl bg-white">
 
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <form className=" space-y-4">

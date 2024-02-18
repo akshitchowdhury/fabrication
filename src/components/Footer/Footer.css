@@ -18,3 +18,8 @@ p{
 .follow{
     margin-left: 17%;
 }
+
+.map_short{
+    width: 300px;
+    height: 300px;
+}

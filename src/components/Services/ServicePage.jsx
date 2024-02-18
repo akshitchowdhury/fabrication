@@ -36,7 +36,7 @@ const ServicePage = forwardRef((props, ref) => {
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image3} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Campus Crafters: Building Communities, One Camp at a Time</h3>
+                    <h3 className="text-xl font-semibold mb-2">Campus Crafters: Building Communities</h3>
                     <p>Tailored camps for diverse workforce needs.</p>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const ServicePage = forwardRef((props, ref) => {
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Blueprints of Comfort: Customized Labor Camp Construction</h3>
+                    <h3 className="text-xl font-semibold mb-2">Blueprints of Comfort: Custom Labor Camp Builds</h3>
                     <p>Customized living spaces fostering productivity and comfort.</p>
                   </div>
                 </div>
