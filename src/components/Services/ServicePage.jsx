@@ -36,7 +36,7 @@ const ServicePage = forwardRef((props, ref) => {
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image3} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Service Title 1</h3>
+                    <h3 className="text-xl font-semibold mb-2">Campus Crafters: Building Communities, One Camp at a Time</h3>
                     <p>Tailored camps for diverse workforce needs.</p>
                   </div>
                 </div>
@@ -45,7 +45,7 @@ const ServicePage = forwardRef((props, ref) => {
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image1} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Service Title 2</h3>
+                    <h3 className="text-xl font-semibold mb-2">Forge and Shelter: Crafting Comfortable Living Spaces</h3>
                     <p>Efficient infrastructure solutions for labor accommodation.</p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const ServicePage = forwardRef((props, ref) => {
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image2} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Service Title 3</h3>
+                    <h3 className="text-xl font-semibold mb-2">Labor Haven: Tailored Camp Solutions for Every Need</h3>
                     <p>Comprehensive camp construction catering to worker welfare.</p>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const ServicePage = forwardRef((props, ref) => {
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Service Title 4</h3>
+                    <h3 className="text-xl font-semibold mb-2">Blueprints of Comfort: Customized Labor Camp Construction</h3>
                     <p>Customized living spaces fostering productivity and comfort.</p>
                   </div>
                 </div>
