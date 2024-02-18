@@ -48,7 +48,7 @@ const Footer = () => {
   };
   
   return (
-    <footer className="foot relative bg-black py-28">
+    <footer className="foot relative bg-black py-27 ">
       {/* Background image */}
       <div className="absolute inset-0 bg-cover bg-center z-0" style={{backgroundImage: "url('../../assets/f3.webp')"}}></div>
 
@@ -57,14 +57,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1 */}
           <div className="text-white">
-            <h4 className="text-3xl font-bold mb-4">About Us</h4>
+            <h4 className="text-3xl font-bold mb-4 mt-4">About Us</h4>
             <img src={footLogo} className='footerLogo' alt="footerLogo" />
             <p className='text-2xl mb-4 tracking-wide leading-relaxed'>KK Industries: Crafting communities through precision fabrication and construction solutions, shaping futures one project at a time.</p>
           </div>
 
           {/* Column 2 */}
           <div className="text-white">
-            <h4 className="text-3xl font-bold mb-4">Contact Us</h4>
+            <h4 className="text-3xl font-bold mb-4 mt-4">Contact Us</h4>
             <br />
             <p className="text-2xl mb-4 tracking-wide leading-relaxed">Kk industries 
               21/5A
@@ -82,7 +82,7 @@ const Footer = () => {
           {/* Column 3 */}
             
           <div className="text-white">
-            <h4 className="text-3xl font-bold mb-4">Quick Links</h4>
+            <h4 className="text-3xl font-bold mb-4 mt-4">Quick Links</h4>
             <br />
             
             <ul>
@@ -100,7 +100,7 @@ const Footer = () => {
           {/* Column 4 */}
 
           <div className="text-white">
-            <h4 className="text-3xl font-bold mb-4">Follow Us</h4>
+            <h4 className="text-3xl font-bold mb-4 mt-4">Follow Us</h4>
             <br />
             <div className='flex space-x-4'>
             <img className='map_short ' src={map_short} alt="map_short" />
