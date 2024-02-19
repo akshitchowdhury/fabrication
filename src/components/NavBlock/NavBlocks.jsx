@@ -8,16 +8,25 @@ import { Link } from 'react-router-dom';
 
 import './BgNav.css'
 
+
 import ServicePage from '../Services/ServicePage';
 import Text from './Text_Slide/Text';
 import mainLogo from '../../assets/logo 1.png'
+import TestimonialCarousel from '../Testimonials/TestimonialCarousel';
+
 const NavBlocks = () => {
   // Create refs for the sections
   const aboutUsRef = useRef(null);
   const galleryRef = useRef(null);
   const contactRef = useRef(null);
   const servicesRef = useRef(null);
-
+  const testimonials = [
+    { name: "John Doe", comment: "Lorem ipsum dolor sit amet.", rating: 5, bgColor: 'orange' },
+    { name: "Jane Smith", comment: "Consectetur adipiscing elit.", rating: 4, bgColor: 'gold' },
+    { name: "Jane Snow", comment: "Consectetur adipiscing elit.", rating: 4, bgColor: 'orange' },
+    { name: "Shawman", comment: "Consectetur .", rating: 4 , bgColor: 'gold'}
+    // Add more testimonials as needed
+  ];
   // Function to scroll smoothly to a specific section 
   const handleClick = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -62,6 +71,10 @@ const NavBlocks = () => {
       <div className='contact'>
         <ContactComponent ref= {contactRef} />
       </div>
+
+      <div className="container mx-auto py-8">
+      <TestimonialCarousel testimonials={testimonials} />
+    </div>
 
       <div className='footer'>
         <Footer />
