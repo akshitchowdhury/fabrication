@@ -41,7 +41,7 @@ const AboutUs = forwardRef((props, ref) => {
         <div className="flex flex-wrap">
           <div className="about-content w-full md:w-1/2">
             <div className="float-left mr-8 mb-4">
-              <img src={about} alt="Service Image" className=" rounded-md shadow-md" />
+              <img src={about2} alt="Service Image" className=" rounded-md shadow-md" />
             </div>
             <p className="text-lg leading-relaxed">
             Welcome to KK Industries, where precision meets purpose in fabrication and construction solutions. With expertise honed over many years, we're not just building structures; we're crafting communities. From intricate fabrication projects to the construction of essential labor camps, we're committed to excellence at every turn. Trust us to bring your vision to life with quality, efficiency, and a dedication to making a lasting impact. At KK Industries, we're not just building; we're shaping futures. Join us in building a better tomorrow, one project at a time.
