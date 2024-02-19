@@ -52,7 +52,7 @@ const ServicePage = forwardRef((props, ref) => {
               </div>
               <div className='serviceLogo'>
                 <button className='logoButton' onClick={toggleCardsVisibility}>
-                  <img src={serviceLogo} alt="serviceLogo" />
+                 <h3>Click to view</h3>  <img src={serviceLogo} alt="serviceLogo" />
                 </button>
               </div>
               <div className={`c3 w-full sm:w-1/2 px-4 mb-8 ${cardsVisible ? 'visible' : 'invisible'}`}>
