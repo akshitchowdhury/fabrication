@@ -13,7 +13,7 @@ const urls = [
 
 const Gallery = forwardRef((props,ref) => {
   return (
-    <div className='main-gallery container mx-auto' ref={ref}>
+    <div className='main-gallery container mx-auto mt-20' ref={ref}>
   <h2 className="heading text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Our Gallery</h2>
 
   <br />

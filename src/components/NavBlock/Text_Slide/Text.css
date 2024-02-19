@@ -1,6 +1,6 @@
 .slideshow-container {
-    position: relative;
-  }
+    /* border: 3pt solid red; */
+  } 
   
   .fade-in-from-left {
     animation: fadeInLeft 1s ease;

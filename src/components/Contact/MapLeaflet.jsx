@@ -34,20 +34,21 @@ const redIcon = new L.Icon({
 
   return (
     <div className="main-box w-full h-screen flex justify-center items-center">
-      <div className="map-box w-full md:w-4/5 lg:w-3/4 xl:w-1/2 h-96">
-        <MapContainer center={position} zoom={13} className="w-full h-full">
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          />
-          {userLocation && (
-            <Marker position={userLocation} icon={redIcon}>
-              <Popup>KK. Industries</Popup>
-            </Marker>
-          )}
-        </MapContainer>
-      </div>
-    </div>
+  <div className="map-box w-full md:w-4/5 lg:w-3/4 xl:w-5/6 h-96">
+    <MapContainer center={position} zoom={13} className="w-full h-full">
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      />
+      {userLocation && (
+        <Marker position={userLocation} icon={redIcon}>
+          <Popup>KK. Industries</Popup>
+        </Marker>
+      )}
+    </MapContainer>
+  </div>
+</div>
+
   );
 };
 

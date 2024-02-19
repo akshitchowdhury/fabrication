@@ -18,11 +18,13 @@ const Slideshow = ({ texts, styles, fontStyles }) => {
   }, [texts.length]);
 
   return (
-    <div className="slideshow-container w-full flex justify-center items-center">
-  <h2 className={`fade-in-from-left ${showNext ? 'fade-out' : ''}`} style={{ color: styles[currentTextIndex], fontStyle: fontStyles[currentTextIndex] }}>
-    {texts[currentTextIndex]}
-  </h2>
-</div>
+    <div className="slideshow-container w-full  flex justify-center items-center mt-1 md:flex ">
+    <h2 className={`fade-in-from-left ${showNext ? 'fade-out' : ''} text-center md:text-6xl lg:text-7xl xl:text-7xl sm:text-5xl  text-5xl`} style={{ color: styles[currentTextIndex], fontStyle: fontStyles[currentTextIndex], maxWidth: '100%', maxHeight: '100%' }}>
+  {texts[currentTextIndex]}
+</h2>
+
+  </div>
+  
 
   );
 };
@@ -38,11 +40,11 @@ const Text = () => {
   ];
   const styles = [
     "white", // orange
-    "gold", // blue
+    "black", // blue
     "white", // blue
-    "gold", // blue
+    "black", // blue
     "white", // blue
-    "#F74007", // blue
+    "black", // blue
     
   ];
 
