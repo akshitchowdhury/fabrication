@@ -1,6 +1,6 @@
 import React, { forwardRef, useState, useEffect } from 'react';
 import about from '../../assets/aboutsUs.jpg';
-import about2 from '../../assets/f8.webp';
+import about2 from '../../assets/f8.jpg';
 import aboutAlt from '../../assets/aboutAlt.jpg'; 
 import './AboutUs.css';
 

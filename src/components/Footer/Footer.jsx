@@ -9,17 +9,7 @@ import Gallery from '../Gallery/Gallery';
 import AboutUs from '../About Us/AboutUs';
 import ServicePage from '../Services/ServicePage';
 const Footer = () => {
-  
-  const aboutUsRef = useRef(null);
-  const galleryRef = useRef(null);
-  const contactRef = useRef(null);
-  const servicesRef = useRef(null);
-
-  // Function to scroll smoothly to a specific section 
-  const handleClick = (ref) => {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
-  };
-
+ 
 
   const styles = {
     container: {
