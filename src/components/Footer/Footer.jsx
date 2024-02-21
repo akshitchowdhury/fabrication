@@ -38,7 +38,7 @@ const Footer = () => {
   };
   
   return (
-    <footer className="foot relative bg-black py-27 ">
+    <footer className="foot relative bg-black h-full ">
       {/* Background image */}
       <div className="absolute inset-0 bg-cover bg-center z-0" style={{backgroundImage: "url('../../assets/f3.webp')"}}></div>
 
