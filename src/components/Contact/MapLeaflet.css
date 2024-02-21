@@ -11,11 +11,12 @@
   
   .map-box{
     /* border: 3pt solid red; */
-    margin-top: -2%;
+    margin-top: -2rem;
     
   }
-/*  
+ 
   .main-box{
     border: 3pt solid black;
     width: 30%;
-  }  */
+    margin-top: 7%;
+  } 

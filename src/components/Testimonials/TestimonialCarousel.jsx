@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import TestimonialCard from './TestimonialCard';
-
+import './TestimonialCarousel.css'
 const TestimonialCarousel = ({ testimonials }) => {
   const sliderRef = useRef(null);
   const [isSliding, setIsSliding] = useState(false);
@@ -36,8 +36,11 @@ const TestimonialCarousel = ({ testimonials }) => {
   };
 
   return (
-    <>    <h2 className= "text-center md:text-4xl   text-3xl` maxWidth: '100%', maxHeight: '100%'">Testimonials</h2>
-    <div className="carousel-container h-40">
+
+    <>
+    <div className='carousel-container'>
+        <h2 className= "text-center md:text-4xl   text-3xl` maxWidth: '100%', maxHeight: '100%'">Testimonials</h2>
+    <div className=" h-40">
     
       <div className="max-w-2xl h-40 mx-auto">
         <Slider ref={sliderRef} {...settings}>
@@ -48,6 +51,7 @@ const TestimonialCarousel = ({ testimonials }) => {
           ))}
         </Slider>
       </div>
+    </div>
     </div>
     </>
 

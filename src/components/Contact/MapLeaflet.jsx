@@ -33,7 +33,7 @@ const redIcon = new L.Icon({
   }, []);
 
   return (
-    <div className="main-box w-full h-screen flex justify-center items-center">
+    <div className="main-box  w-full lg:w-3/4 px-4 lg:p-6 lg:h-full rounded-lg shadow-2xl bg-white rounded-lg shadow-2xl bg-white">
   <div className="map-box w-full md:w-4/5 lg:w-3/4 xl:w-5/6 h-96">
     <MapContainer center={position} zoom={13} className="w-full h-full">
       <TileLayer

@@ -31,9 +31,8 @@ const ContactComponent = forwardRef((props,ref) => {
       </div>
       
 
-
-<MapLeaflet/>
-
+     <MapLeaflet className="map-box"/>
+    
 
     </div>
 </div>
