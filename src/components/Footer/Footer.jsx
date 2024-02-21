@@ -77,11 +77,11 @@ const Footer = () => {
             
             <ul>
             <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/" className="navbar-link ">Home</Link></li>
-            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/" onClick={() => handleClick(aboutUsRef)} className="navbar-link">About Us</Link>
+            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/"  className="navbar-link">About Us</Link>
             </li>
-            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/" onClick={() => handleClick(servicesRef)} className="navbar-link">Services</Link></li> 
-            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/" onClick={() => handleClick(galleryRef)} className="navbar-link">Gallery</Link></li>
-            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/" onClick={() => handleClick(contactRef)} className="navbar-link">Contact Us</Link>
+            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/"  className="navbar-link">Services</Link></li> 
+            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/"  className="navbar-link">Gallery</Link></li>
+            <li className='text-2xl mb-4 tracking-wide leading-relaxed'><Link to="/"  className="navbar-link">Contact Us</Link>
             </li></ul>
                  
           </div>

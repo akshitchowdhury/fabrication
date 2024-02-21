@@ -3,7 +3,7 @@ import service_image from '../../assets/gallery/kk12.jpg'
 import service_image1 from '../../assets/gallery/kk13.jpg'
 import service_image2 from '../../assets/gallery/kk14.jpg'
 import service_image3 from '../../assets/gallery/kk16.jpg'
-import serviceLogo from '../../assets/serviceLogo.jpg'
+import serviceLogo from '../../assets/SLogo.jpeg'
 import './ServicePage.css'
 
 const ServicePage = forwardRef((props, ref) => {
