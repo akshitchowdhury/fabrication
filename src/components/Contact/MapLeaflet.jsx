@@ -97,7 +97,7 @@ const handleMarkerClick = () => {
 
 
     return (
-      <div className="main-box  ">
+     
     <div className="map-box ">
       <MapContainer center={fixedLocation} // Set the center to the fixed location
       zoom={13} className="w-full h-full">
@@ -118,7 +118,7 @@ const handleMarkerClick = () => {
 
       </MapContainer>
     </div>
-  </div>
+  
   
     );
   };
