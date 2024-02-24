@@ -33,7 +33,7 @@ const NavBlocks = () => {
   };
   return (
     <>
-     <div className='navBlock'>
+     <div className='navBlock w-full'>
       <nav className="bg-cover">
 
       <div class="logo flex items-start justify-start px-3 py-2 mx-auto max-w-screen-xl">
