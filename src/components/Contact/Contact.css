@@ -59,3 +59,11 @@
     transform: scale(1.10) translateX(3rem);
     background-color: rgb(117, 211, 228);
 }
+.enter-phone{
+    transition: transform 0.6s ease, background-color 0.9s ease; 
+}
+
+.enter-phone:hover{
+    transform: scale(1.10) translateX(3rem);
+    background-color: rgb(209, 212, 14);
+}

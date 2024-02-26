@@ -9,8 +9,8 @@ const SocialIcons = () => {
     <div className='social-icons' style={styles.container}>
       <a href="https://www.instagram.com/" style={styles.link}><FaInstagram style={styles.icon('#405DE6', '#405DE6')} /></a>
       <a href="https://www.facebook.com/" style={styles.link}><FaFacebook style={styles.icon('#1877F2', '#1877F2')} /></a>
-      <a href="kkindustrieblr@gmail.com" style={styles.link}><FaEnvelope style={styles.icon('#EA4335', '#EA4335')} /></a>
-      <a href="tel:+123456789" style={styles.link}><FaPhone style={styles.icon('#34A853', '#34A853')} /></a>
+      <a href="Info@kkindustries.com" style={styles.link}><FaEnvelope style={styles.icon('#EA4335', '#EA4335')} /></a>
+      <a href="tel:7975656410" style={styles.link}><FaPhone style={styles.icon('#34A853', '#34A853')} /></a>
     </div>
   );
 }
