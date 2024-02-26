@@ -16,7 +16,7 @@ const ServicePage = forwardRef((props, ref) => {
   return (
     <>
     <br/>
-    <br/>
+    
     <h1 className="Servie_heading heading text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Our Services</h1>
     <div className='mains-service' ref={ref}>
       
@@ -30,7 +30,7 @@ const ServicePage = forwardRef((props, ref) => {
             KK Industries, a trusted name in labor camp construction, brings years of expertise to every project. With a proven track record of delivering high-quality accommodation solutions, we prioritize safety, efficiency, and client satisfaction. Count on us to build robust living spaces that nurture productivity and well-being for your workforce
             </p>
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="service-box w-full md:w-1/2">
             <div className="C2 flex flex-wrap -mx-4">
               <div className={`c1 w-full sm:w-1/2 px-4 mb-8 ${cardsVisible ? 'visible' : 'invisible'}`}>
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">

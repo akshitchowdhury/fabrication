@@ -63,7 +63,7 @@ const Footer = () => {
           </p>
           <br/>
           <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Email: kkindustrieblr@gmail.com</p>
-          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Phone: +91 98453-71516</p>
+          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Phone: +91 7975656410</p>
         </div>
   
         {/* Column 3 */}
@@ -83,17 +83,10 @@ const Footer = () => {
         <div className="text-white">
           <h4 className="text-3xl font-bold mb-4 mt-4">Follow Us</h4>
           <br />
-          <div className='flex space-x-4'>
-            <MapLeaflet   />
-            {/* <div className="flex space-x-4">
-              <div className='social-icons'>
-                <a href="https://www.instagram.com/"><FaInstagram style={styles.icon('#405DE6', '#405DE6')} /></a>
-                <a href="https://www.facebook.com/"><FaFacebook style={styles.icon('#1877F2', '#1877F2')} /></a>
-                <a href="mailto:kkindustrieblr@gmail.com"><FaEnvelope style={styles.icon('#EA4335', '#EA4335')} /></a>
-                <a href="tel:+919845371516"><FaPhone style={styles.icon('#34A853', '#34A853')} /></a>
-              </div>
-            </div> */}
-          </div>
+          <div className='mini_map flex space-x-4'>
+  <MapLeaflet className="w-full" />
+</div>
+
         </div>
       </div>
   

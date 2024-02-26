@@ -20,7 +20,7 @@ p{
     margin-left: 17%;
 }
 
-.map_short{
+.mini_map{
     width: 300px;
-    height: 300px;
+    border: 3pt solid red;
 }

@@ -9,8 +9,8 @@ const ContactComponent = forwardRef((props,ref) => {
   <div ref={ref} className='connect-container'>
   <h2 className="connect w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg  text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Connect With Us</h2>
 
-    <div className="flex flex-col lg:flex-row">
-    <div className="form w-full md:w-1/2 lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg shadow-2xl bg-white">
+    <div className="flex flex-col lg:flex-row sm:flex-col">
+    <div className="form w-full md:w-1/2 lg:w-1/2 px-4 lg:p-4 lg:h-full rounded-lg shadow-2xl bg-white">
   <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
   <form className="space-y-4">
     <div>
