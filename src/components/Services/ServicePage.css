@@ -28,7 +28,7 @@
     background-image: url('../../assets/SLogo.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 47rem;
+    height: 70rem;
     margin-top: 14%;
   }
   
@@ -96,4 +96,9 @@
     justify-content: center;
     
 
+  }
+
+  
+  .service-box{
+    overflow: scroll;
   }
