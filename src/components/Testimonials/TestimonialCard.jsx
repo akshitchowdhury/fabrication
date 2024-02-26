@@ -33,7 +33,7 @@
 
 import React from 'react';
 
-const TestimonialCard = ({ text, author, company, image }) => {
+const TestimonialCard = ({ text, author, company}) => {
   return (
     <>
     <section className="bg-white dark:bg-gray-900">

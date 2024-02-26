@@ -30,9 +30,9 @@ const NavBlocks = () => {
 
   const testimonials = [
     { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh Jh", Company: "Innomatrics Tech" },
-    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh", Company: "Innomatrics Tech" },
-    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh", Company: "Innomatrics Tech" },
-    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh", Company: "Innomatrics Tech" }
+    { text: "One of the oldest leading services in fabrications and constructins", author: "Paramesh P", Company: "Innomatrics Tech" },
+    { text: "One of the oldest leading services in fabrications and constructins", author: "Rakesh", Company: "Innomatrics Tech" },
+    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh Jh", Company: "Innomatrics Tech" }
     // Add more testimonials as needed
   ];
 
@@ -83,9 +83,11 @@ const NavBlocks = () => {
         <ContactComponent ref= {contactRef} />
       </div>
 
-      <div className="container mx-auto py-8">
-      <TestimonialCarousel testimonials={testimonials} />
-    </div>
+      <div className="container mx-auto py-8 flex flex-row justify-center space-x-4">
+       <TestimonialCarousel testimonials={testimonials} />
+ 
+</div>
+
 
       <div className='footer'>
         <Footer />
