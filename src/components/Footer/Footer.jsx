@@ -5,9 +5,11 @@ import footLogo from '../../assets/logo 1.png';
 import { FaInstagram, FaFacebook, FaEnvelope, FaPhone } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import map_short from '../../assets/map_short.png'
+
 import Gallery from '../Gallery/Gallery';
 import AboutUs from '../About Us/AboutUs';
 import ServicePage from '../Services/ServicePage';
+import MapLeaflet from '../Contact/MapLeaflet';
 const Footer = () => {
  
 
@@ -82,7 +84,7 @@ const Footer = () => {
           <h4 className="text-3xl font-bold mb-4 mt-4">Follow Us</h4>
           <br />
           <div className='flex space-x-4'>
-            <img className='map_short ' src={map_short} alt="map_short" />
+            <MapLeaflet   />
             {/* <div className="flex space-x-4">
               <div className='social-icons'>
                 <a href="https://www.instagram.com/"><FaInstagram style={styles.icon('#405DE6', '#405DE6')} /></a>
