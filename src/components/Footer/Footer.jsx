@@ -62,7 +62,7 @@ const Footer = () => {
           Address: 21/5a, Canara Bank Rd, behind Manasa Theatre, Cross, Konanakunte, Bengaluru, Karnataka 560062
           </p>
           <br/>
-          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Email: kkindustrieblr@gmail.com</p>
+          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Email:Info@kkindustries.com</p>
           <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Phone: +91 7975656410</p>
         </div>
   
