@@ -103,7 +103,7 @@ const Footer = () => {
           </p>
           <br/>
           <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Email:Info@kkindustries.com</p>
-          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Phone: +91 7975656410</p>
+          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Phone: +91 7975656410 | +91 9353239880</p>
         </div>
   
         {/* Column 3 */}

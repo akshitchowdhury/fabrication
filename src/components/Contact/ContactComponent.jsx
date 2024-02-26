@@ -74,7 +74,7 @@ const ContactComponent = forwardRef((props,ref) => {
     
 
     </div>
-</div>
+</div> 
 </>
   );
 });

@@ -20,13 +20,24 @@ const NavBlocks = () => {
   const galleryRef = useRef(null);
   const contactRef = useRef(null);
   const servicesRef = useRef(null);
+  // const testimonials = [
+  //   { name: "John Doe", comment: "Lorem ipsum dolor sit amet.", rating: 5, bgColor: 'white' },
+  //   { name: "Jane Smith", comment: "Consectetur adipiscing elit.", rating: 4, bgColor: 'gold' },
+  //   { name: "Jane Snow", comment: "Consectetur adipiscing elit.", rating: 4, bgColor: 'orange' },
+  //   { name: "Shawman", comment: "Consectetur .", rating: 4 , bgColor: 'gold'}
+    
+  // ];
+
   const testimonials = [
-    { name: "John Doe", comment: "Lorem ipsum dolor sit amet.", rating: 5, bgColor: 'orange' },
-    { name: "Jane Smith", comment: "Consectetur adipiscing elit.", rating: 4, bgColor: 'gold' },
-    { name: "Jane Snow", comment: "Consectetur adipiscing elit.", rating: 4, bgColor: 'orange' },
-    { name: "Shawman", comment: "Consectetur .", rating: 4 , bgColor: 'gold'}
+    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh Jh", Company: "Innomatrics Tech" },
+    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh", Company: "Innomatrics Tech" },
+    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh", Company: "Innomatrics Tech" },
+    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh", Company: "Innomatrics Tech" }
     // Add more testimonials as needed
   ];
+
+
+
   // Function to scroll smoothly to a specific section 
   const handleClick = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
