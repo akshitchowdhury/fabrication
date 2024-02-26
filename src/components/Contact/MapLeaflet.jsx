@@ -52,14 +52,14 @@ import 'leaflet/dist/leaflet.css';
 //   );
 // };
 
-
+// 12°53'25.8"N 77°33'34.7"E
 
 const MapLeaflet = () => {
 
-  const fixedLocation = [12.972007138583947, 77.61923362320319]; // Fixed location coordinates
+  const fixedLocation = [12.8904985,77.5596266]; // Fixed location coordinates
   const [userLocation, setUserLocation] = useState(null);
 
-  const [position, setPosition] = useState([12.8899901, 77.5597094]); // Default position
+  const [position, setPosition] = useState([12.8904985,77.5596259]); // Default position
   
   // const latitude = 12 + (53 / 60) + (24.3 / 3600); // Corrected latitude calculation
   // const longitude = 77 + (33 / 60) + (42.8 / 3600);
@@ -106,7 +106,7 @@ const handleMarkerClick = () => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       <Marker position={fixedLocation} icon={redIcon} eventHandlers={{ click: handleMarkerClick }}>
-        <Popup>Fixed Location</Popup>
+        <Popup>KK Industries</Popup>
       </Marker>
       {userLocation && (
         <Marker position={userLocation} icon={blueIcon}>
