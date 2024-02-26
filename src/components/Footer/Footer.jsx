@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="text-white">
           <h4 className="text-3xl font-bold mb-4 mt-4">About Us</h4>
           <img src={footLogo} className='footerLogo' alt="footerLogo" />
-          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>KK Industries: Crafting communities through precision fabrication and construction solutions, shaping futures one project at a time.</p>
+          <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>KK Industries: Crafting communities through precision fabrication and construction solutions, shaping futures multiple projects at a time.</p>
         </div>
   
         {/* Column 2 */}
@@ -88,14 +88,14 @@ const Footer = () => {
           <br />
           <div className='flex space-x-4'>
             <img className='map_short ' src={map_short} alt="map_short" />
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <div className='social-icons'>
                 <a href="https://www.instagram.com/"><FaInstagram style={styles.icon('#405DE6', '#405DE6')} /></a>
                 <a href="https://www.facebook.com/"><FaFacebook style={styles.icon('#1877F2', '#1877F2')} /></a>
                 <a href="mailto:kkindustrieblr@gmail.com"><FaEnvelope style={styles.icon('#EA4335', '#EA4335')} /></a>
                 <a href="tel:+919845371516"><FaPhone style={styles.icon('#34A853', '#34A853')} /></a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
