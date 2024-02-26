@@ -47,7 +47,7 @@ const ContactComponent = forwardRef((props,ref) => {
     <div className="flex flex-col lg:flex-row sm:flex-col">
     <div className="form w-full md:w-1/2 lg:w-1/2 px-4 lg:p-4 lg:h-full rounded-lg shadow-2xl bg-white">
   <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-  <form className="space-y-4">
+  <form className="space-y-4" onSubmit={handleSubmit}>
     <div>
       <label htmlFor="name" className="block font-semibold mb-1">Name</label>
       <input type="text" ref={nameRef} id="name" name="name" className="enter-name w-full px-4 py-2 border rounded-md" placeholder="Enter your name" />
@@ -58,7 +58,7 @@ const ContactComponent = forwardRef((props,ref) => {
     </div>
     <div>
       <label htmlFor="phone" className="block font-semibold mb-1">Phone</label>
-      <input type="email" ref={phoneRef} id="email" name="email" className="enter-phone w-full px-4 py-2 border rounded-md" placeholder="Enter your phone no" />
+      <input type="tel" ref={phoneRef} id="phone" name="phone" className="enter-phone w-full px-4 py-2 border rounded-md" placeholder="Enter your phone no" />
     </div>
     <div>
       <label htmlFor="message" className="block font-semibold mb-1">Message</label>

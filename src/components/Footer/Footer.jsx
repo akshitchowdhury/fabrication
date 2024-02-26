@@ -80,7 +80,7 @@ const Footer = () => {
   };
   
   return (
-    <footer className="foot relative bg-black">
+    <footer className="foot relative bg-black md:w-full sm:w-full">
     {/* Background image */}
     <div className="absolute inset-0 bg-cover bg-center z-0" style={{backgroundImage: "url('../../assets/f3.webp')"}}></div>
   
