@@ -1,5 +1,7 @@
 import React, { forwardRef } from 'react'
-import v1 from '../../assets/V1.mp4'
+import v1 from '../../assets/gallery/V1.mp4'
+import v2 from '../../assets/gallery/V2.mp4'
+import v3 from '../../assets/gallery/V3.mp4'
 
 import Card from './Card/Card'
 import './Gallery.css'
@@ -7,8 +9,7 @@ import Video from './Video/Video'
 
 const urls = [
   v1,
-  "https://www.youtube.com/watch?v=RHO2N5eHQy4",
-  "https://www.youtube.com/watch?v=tR1mHx_HoYY"
+  v2,v3
 ];
 
 const Gallery = forwardRef((props,ref) => {
