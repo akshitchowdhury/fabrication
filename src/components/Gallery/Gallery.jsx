@@ -1,12 +1,12 @@
 import React, { forwardRef } from 'react'
-
+import v1 from '../../assets/V1.mp4'
 
 import Card from './Card/Card'
 import './Gallery.css'
 import Video from './Video/Video'
 
 const urls = [
-  "https://www.youtube.com/watch?v=NBJhnd08eOc",
+  v1,
   "https://www.youtube.com/watch?v=RHO2N5eHQy4",
   "https://www.youtube.com/watch?v=tR1mHx_HoYY"
 ];

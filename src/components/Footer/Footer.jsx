@@ -57,12 +57,7 @@ const Footer = () => {
           <h4 className="text-3xl font-bold mb-4 mt-4">Contact Us</h4>
           <br />
           <p className="text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed">Kk industries 
-            21/5A
-            Behind Manasa theatre
-            Canara bank Road
-            Konnankunte cross
-            Bangalore 
-            560062
+          Address: 21/5a, Canara Bank Rd, behind Manasa Theatre, Cross, Konanakunte, Bengaluru, Karnataka 560062
           </p>
           <br/>
           <p className='text-xl lg:text-2xl mb-4 tracking-wide leading-relaxed'>Email: kkindustrieblr@gmail.com</p>

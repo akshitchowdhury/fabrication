@@ -1,9 +1,9 @@
 import React from 'react';
-import f0 from '../../../assets/gallery/kk7.jpg';
+import f0 from '../../../assets/real3.jpeg';
 import f1 from '../../../assets/gallery/kk4.jpg';
-import f2 from '../../../assets/gallery/kk6.jpg';
+import f2 from '../../../assets/real2.jpeg';
 import f3 from '../../../assets/gallery/kk5.jpg';
-import f4 from '../../../assets/gallery/kk12.jpg';
+import f4 from '../../../assets/real1.jpeg';
 import f5 from '../../../assets/gallery/kk16.jpg';
 import './Card.css'
 const cardsData = [
@@ -11,7 +11,7 @@ const cardsData = [
   { image: f1, description: "Description for card 2", title: "Constructing havens for hard work."},
   { image: f2, description: "Description for card 3", title: "Foundations for a flourishing workforce."},
   { image: f3, description: "Description for card 4", title: "Creating spaces where labor finds home."},
-  { image: f4, description: "Description for card 5", title: "Empowering workers through sturdy shelters."},
+  { image: f4, description: "Description for card 5", title: "Empowering workers through study shelters."},
   { image: f5, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
   // Add similar entries for f1, f2, ..., f8
 ];

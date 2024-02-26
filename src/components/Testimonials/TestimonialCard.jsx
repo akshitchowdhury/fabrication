@@ -4,10 +4,11 @@ const TestimonialCard = ({ name, comment, rating, bgColor }) => {
   const cardStyle = {
     backgroundColor: bgColor,
     transition: "background-color 1s ease-in",
+    marginLeft: "10rem"
   };
 
   return (
-    <div className="shadow-md rounded-lg p-10" style={cardStyle}>
+    <div className="shadow-md rounded-lg p-10 w-1/2" style={cardStyle}>
       <div className="flex items-center justify-center mb-4">
         <div className="flex-shrink-0 mr-3">
           <img
