@@ -1,17 +1,51 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Footer.css';
 import footLogo from '../../assets/logo 1.png';
 
 import { FaInstagram, FaFacebook, FaEnvelope, FaPhone } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import map_short from '../../assets/map_short.png'
-
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import '../Contact/MapLeaflet.css'; // Create a separate CSS file for styling
+import 'tailwindcss/tailwind.css'; // Import Tailwind CSS
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 import Gallery from '../Gallery/Gallery';
 import AboutUs from '../About Us/AboutUs';
 import ServicePage from '../Services/ServicePage';
 import MapLeaflet from '../Contact/MapLeaflet';
 const Footer = () => {
  
+  const fixedLocation = [12.8904985, 77.5596266]; // Fixed location coordinates
+  const [userLocation, setUserLocation] = useState(null);
+
+  const redIcon = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+  });
+
+  useEffect(() => {
+    // Get user's geolocation
+    navigator.geolocation.getCurrentPosition(
+      (geoLocation) => {
+        const { latitude, longitude } = geoLocation.coords;
+        setUserLocation({ lat: latitude, lng: longitude });
+      },
+      (error) => console.error('Error getting geolocation:', error),
+      { enableHighAccuracy: true }
+    );
+  }, []);
+
+  const handleMarkerClick = () => {
+    const [lat, lng] = fixedLocation;
+    const description = "Description of the fixed location";
+
+    // Open Google Maps URL in a new tab
+    window.open(`https://www.google.com/maps/search/?api=1&query=${lat},${lng}&query_place_id=${description}`);
+  };
+
 
   const styles = {
     container: {
@@ -36,7 +70,13 @@ const Footer = () => {
         transform: 'scale(1.1)',
         color: (theme) => theme.color.hoverColor,
       },
-    }
+    },
+    mapContainer: {
+      width: '300px', // Adjust the width as needed
+      height: '300px', // Adjust the height as needed
+      borderRadius: '10px', // Rounded corners
+      overflow: 'hidden', // Ensure map doesn't overflow
+    },
   };
   
   return (
@@ -83,10 +123,30 @@ const Footer = () => {
         <div className="text-white">
           <h4 className="text-3xl font-bold mb-4 mt-4">Follow Us</h4>
           <br />
-          <div className='mini_map flex space-x-4'>
-  <MapLeaflet className="w-full" />
-</div>
-
+          <div className='mini_map flex space-x-4' style={styles.mapContainer}>
+            {/* <MapLeaflet className="w-full" /> */}
+          
+            <div className="map-box w-full md:w-full lg:w-full xl:full mx-auto md:mt-6">
+      <MapContainer center={fixedLocation} zoom={13} className="w-full h-96 md:h-full">
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        <Marker position={fixedLocation} icon={redIcon} eventHandlers={{ click: handleMarkerClick }}>
+          <Popup>KK Industries</Popup>
+        </Marker>
+        {userLocation && (
+          <Marker position={userLocation}>
+            <Popup>User Location</Popup>
+          </Marker>
+        )}
+      </MapContainer>
+    </div>
+  
+          
+          
+          
+          </div>
         </div>
       </div>
   
