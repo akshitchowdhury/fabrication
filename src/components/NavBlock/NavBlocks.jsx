@@ -29,10 +29,10 @@ const NavBlocks = () => {
   // ];
 
   const testimonials = [
-    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh Jh", Company: "Innomatrics Tech" },
-    { text: "One of the oldest leading services in fabrications and constructins", author: "Paramesh P", Company: "Innomatrics Tech" },
-    { text: "One of the oldest leading services in fabrications and constructins", author: "Rakesh", Company: "Innomatrics Tech" },
-    { text: "Affordable comparatively to other competitors and work quality is very good", author: "Rakesh Jh", Company: "Innomatrics Tech" }
+    { text: `"Affordable comparatively to other competitors and work quality is very good"`, author: "-Rakesh Jh", Company: "Innomatrics Tech" },
+    { text: `"One of the oldest leading services in fabrications and constructions"`, author: "-Paramesh P", Company: "Innomatrics Tech" },
+    { text: `"Good company with experienced staff"`, author: "-Akshit C", Company: "Innomatrics Tech" },
+    { text: `"I recently engaged with KK Industries for my business needs, and I couldn't be happier with the experience. The quality of their products/services is outstanding, and their commitment to customer satisfaction is evident throughout the process."`, author: "-Rishav G", Company: "Innomatrics Tech" }
     // Add more testimonials as needed
   ];
 

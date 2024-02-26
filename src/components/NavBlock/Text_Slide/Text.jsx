@@ -19,7 +19,7 @@ const Slideshow = ({ texts, styles, fontStyles }) => {
 
   return (
     <div className="slideshow-container w-full  flex justify-center items-center mt-1 md:flex ">
-    <h2 className={`fade-in-from-left ${showNext ? 'fade-out' : ''} text-center md:text-6xl lg:text-7xl xl:text-7xl sm:text-5xl  text-5xl`} style={{ color: styles[currentTextIndex], fontStyle: fontStyles[currentTextIndex], maxWidth: '100%', maxHeight: '100%' }}>
+    <h2 className={`fade-in-from-left ${showNext ? 'fade-out' : ''} text-center md:text-6xl lg:text-7xl xl:text-7xl sm:text-3xl   text-3xl o`} style={{ color: styles[currentTextIndex], fontStyle: fontStyles[currentTextIndex], maxWidth: '100%', maxHeight: '100%' }}>
   {texts[currentTextIndex]}
 </h2>
 

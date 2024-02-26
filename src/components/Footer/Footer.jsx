@@ -80,12 +80,12 @@ const Footer = () => {
   };
   
   return (
-    <footer className="foot relative bg-black md:w-full sm:w-full">
+    <footer className="foot   relative bg-black xl:w-full md:w-full sm:overflow-x-hidden">
     {/* Background image */}
     <div className="absolute inset-0 bg-cover bg-center z-0" style={{backgroundImage: "url('../../assets/f3.webp')"}}></div>
   
     {/* Content */}
-    <div className="container mx-auto relative z-10 px-4 lg:px-0">
+    <div className="container mt-0.5 mx-auto relative z-10 px-4 lg:px-0">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-12 lg:py-16">
         {/* Column 1 */}
         <div className="text-white">

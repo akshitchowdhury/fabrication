@@ -17,6 +17,7 @@ import mainLogo from './assets/logo 1.png'
 function App() {
   return (
     <>
+    <div className='overflow-x-hidden'>
     <Router>
     <SocialIcons/>  
     
@@ -41,7 +42,7 @@ function App() {
         
   
     </Router>
-  
+    </div>
     </>
   );
 }
