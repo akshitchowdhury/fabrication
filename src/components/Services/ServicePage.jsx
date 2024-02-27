@@ -1,8 +1,8 @@
 import React, { forwardRef, useState } from 'react';
-import service_image from '../../assets/gallery/kk12.jpg'
+import service_image from '../../assets/gallery/kk17.jpg'
 import service_image1 from '../../assets/gallery/kk13.jpg'
 import service_image2 from '../../assets/gallery/kk14.jpg'
-import service_image3 from '../../assets/gallery/kk16.jpg'
+import service_image3 from '../../assets/real1.jpeg'
 import serviceLogo from '../../assets/SLogo.jpeg'
 import './ServicePage.css'
 
@@ -27,7 +27,7 @@ const ServicePage = forwardRef((props, ref) => {
               <img src={service_image} alt="Service Image" className="I1 rounded-md shadow-md" />
             </div>
             <p className="text-lg">
-            KK Industries, a trusted name in labor camp construction, brings years of expertise to every project. With a proven track record of delivering high-quality accommodation solutions, we prioritize safety, efficiency, and client satisfaction. Count on us to build robust living spaces that nurture productivity and well-being for your workforce
+            KK Industries, a trusted name in labour camp construction, brings years of expertise to every project. With a proven track record of delivering high-quality accommodation solutions, we prioritize safety, efficiency, and client satisfaction. Count on us to build robust living spaces that nurture productivity and well-being for your workforce
             </p>
           </div>
           <div className="service-box w-full md:w-1/2">
@@ -46,7 +46,7 @@ const ServicePage = forwardRef((props, ref) => {
                   <img src={service_image1} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Forge and Shelter: Crafting Comfortable Living Spaces</h3>
-                    <p>Efficient infrastructure solutions for labor accommodation.</p>
+                    <p>Efficient infrastructure solutions for labour accommodation.</p>
                   </div>
                 </div>
               </div>
@@ -55,24 +55,42 @@ const ServicePage = forwardRef((props, ref) => {
                  <h3>Click to view</h3>  <img src={serviceLogo} alt="serviceLogo" />
                 </button>
               </div>
+
+                <div className='flex flex-wrap'>
+
               <div className={`c3 w-full sm:w-1/2 px-4 mb-8 ${cardsVisible ? 'visible' : 'invisible'}`}>
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image2} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Labor Haven: Tailored Camp Solutions for Every Need</h3>
+                    <h3 className="text-xl font-semibold mb-2">labour Haven: Tailored Camp Solutions for Every Need</h3>
                     <p>Comprehensive camp construction catering to worker welfare.</p>
                   </div>
                 </div>
               </div>
+
+
               <div className={`c4 w-full sm:w-1/2 px-4 mb-8 ${cardsVisible ? 'visible' : 'invisible'}`}>
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">Blueprints of Comfort: Custom Labor Camp Builds</h3>
-                    <p>Customized living spaces fostering productivity and comfort.</p>
+                    <h3 className="text-xl font-semibold mb-2">Blueprints of Comfort: Custom labour Camp Builds</h3>
+                    <p>Customized living spaces fostering productivity and comfort; reaching expectaions.</p>
                   </div>
                 </div>
               </div>
+              {/* <div className={`c4 w-full sm:w-1/2 px-4 mb-8 ${cardsVisible ? 'visible' : 'invisible'}`}>
+                <div className=" bg-white rounded-lg shadow-md overflow-hidden">
+                  <img src={service_image} alt="Service Image" className="w-full h-48 object-cover" />
+                  <div className="p-4">
+                    <h3 className="text-xl font-semibold mb-2">Blueprints of Comfort: Custom labour Camp Builds</h3>
+                    <p>Customized living spaces fostering productivity and comfort.</p>
+                  </div>
+                </div>
+              </div> */}
+
+              </div>
+
+
             </div>
           </div>
         </div>

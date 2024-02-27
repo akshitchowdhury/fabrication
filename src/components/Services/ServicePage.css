@@ -31,7 +31,18 @@
     height: 70rem;
     margin-top: 14%;
   }
+
+  @media only screen and (max-width: 600px) {
+    .C2 {
+      background-size: contain;
+    }
+  }
   
+
+ 
+
+
+
   .c1,
   .c2,
   .c3,
@@ -40,11 +51,11 @@
   }
 
   .c3{
-    margin-top: -20%;
+    margin-top: -24%;
   }
   
   .c4{
-    margin-top: -20%;
+    margin-top: -24%;
   }
   
   .visible {

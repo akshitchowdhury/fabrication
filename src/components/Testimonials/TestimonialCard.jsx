@@ -2,7 +2,7 @@ import React from 'react';
 
 const TestimonialCard = ({ text, author, company }) => {
   return (
-    <section className="bg-white dark:bg-gray-900 w-full">
+    <section className="bg-white dark:bg-gray-900 w-full sm:flex flex-wrap">
       <div className="max-w-screen-xl mx-auto px-4 py-8 lg:py-16 lg:px-6">
         <div className="max-w-md mx-auto">
           <svg className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
