@@ -42,7 +42,7 @@ const TestimonialCarousel = ({ testimonials }) => {
         <h2 className= "text-center md:text-4xl   text-3xl` maxWidth: '100%', maxHeight: '100%'">Testimonials</h2>
     <div className=" h-40">
     
-      <div className="max-w-2xl h-40 mx-auto">
+      <div className="max-w-2xl h-40 mx-auto ">
         <Slider ref={sliderRef} {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index} className="testimonial-card-container">

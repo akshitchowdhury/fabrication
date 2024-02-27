@@ -23,7 +23,7 @@ const ServicePage = forwardRef((props, ref) => {
       <div className="container mx-auto py-8">
         <div className="flex flex-wrap">
           <div className="C1 w-full md:w-1/2">
-            <div className="float-left mr-8 mb-4">
+            <div className=" mr-8 mb-4">
               <img src={service_image} alt="Service Image" className="I1 rounded-md shadow-md" />
             </div>
             <p className="text-lg">
@@ -62,7 +62,7 @@ const ServicePage = forwardRef((props, ref) => {
                 <div className=" bg-white rounded-lg shadow-md overflow-hidden">
                   <img src={service_image2} alt="Service Image" className="w-full h-48 object-cover" />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">labour Haven: Tailored Camp Solutions for Every Need</h3>
+                    <h3 className="text-xl font-semibold mb-2">Labour haven: Tailored Camp Solutions for Every Need</h3>
                     <p>Comprehensive camp construction catering to worker welfare.</p>
                   </div>
                 </div>

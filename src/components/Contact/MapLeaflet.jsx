@@ -7,6 +7,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const MapLeaflet = () => {
+  
   const fixedLocation = [12.8904985, 77.5596266]; // Fixed location coordinates
   const [userLocation, setUserLocation] = useState(null);
 
