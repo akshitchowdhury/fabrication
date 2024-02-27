@@ -13,20 +13,21 @@ const ContactComponent = forwardRef((props,ref) => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    emailjs.init("yYVBr5BddZiFletl9");
+    emailjs.init("iI4KONZqTCCU8bCTw");
   }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const serviceId = "service_hz6vh9l";
-    const templateId = "template_15xt8ef";
+    const serviceId = "service_gr4bljk";
+    const templateId = "template_tv63f2y";
     try {
       setLoading(true);
       await emailjs.send(serviceId, templateId, {
         name: nameRef.current.value,
         recipient: emailRef.current.value,
         message: messageRef.current.value,
-        phone: phoneRef.current.value // Include phone number in the email template
+        phone: phoneRef.current.value, // Include phone number in the email template
+        email: emailRef.current.value // Include phone number in the email template
       });
       alert("Email successfully sent. Please check your inbox.\n\nName: " + nameRef.current.value + "\nEmail: " + emailRef.current.value + "\nMessage: " + messageRef.current.value + "\nPhone: " + phoneRef.current.value); // Display name, email, message, and phone number in the success message
     } catch (error) {
