@@ -4,7 +4,7 @@ import f1 from '../../../assets/gallery/kk2.jpg';
 import f2 from '../../../assets//gallery/kk3.jpg';
 import f3 from '../../../assets/gallery/kk4.jpg';
 import f4 from '../../../assets/gallery/kk5.jpg';
-import f5 from '../../../assets/gallery/kk6.jpg';
+// import f5 from '../../../assets/gallery/kk6.jpg';
 import f6 from '../../../assets/gallery/kk7.jpg';
 import f7 from '../../../assets/gallery/kk8.jpg';
 import f8 from '../../../assets/gallery/kk9.jpg';
@@ -24,7 +24,7 @@ const cardsData = [
   { image: f2, description: "Description for card 3", title: "Foundations for a flourishing workforce."},
   { image: f3, description: "Description for card 4", title: "Creating spaces where labor finds home."},
   { image: f4, description: "Description for card 5", title: "Empowering workers through study shelters."},
-  { image: f5, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
+  // { image: f5, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
   { image: f6, description: "Description for card 6", title: "Redefining the concept of labor housing with visionary fabrication approaches."},
   { image: f7, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
   { image: f8, description: "Description for card 6", title: "Innovating construction methods for modern, adaptable labour camps."},
@@ -39,7 +39,7 @@ const cardsData = [
   { image: f17, description: "Description for card 6", title: "Elevating standards in labor housing through innovative fabrication."},
   // { image: f18, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
   // { image: f19, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
-  // { image: f20, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."},
+  // { image: f20, description: "Description for card 6", title: "Pioneering solutions for labor accommodation."}, 9980280635--Prashanth
   // Add similar entries for f1, f2, ..., f8
 ];
 
