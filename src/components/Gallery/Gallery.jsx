@@ -5,7 +5,7 @@ import v3 from '../../assets/gallery/V3.mp4'
 
 import Card from './Card/Card'
 import './Gallery.css'
-import Video from './Video/Video'
+// import Video from './Video/Video'
 
 const urls = [
   v1,
@@ -22,9 +22,9 @@ const Gallery = forwardRef((props,ref) => {
     <Card/>
   </div>
 
-  <div className='video'>
+  {/* <div className='video'>
     <Video urls={urls} />
-  </div>
+  </div> */}
 </div>
 
     
